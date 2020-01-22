@@ -1,0 +1,12 @@
+From ubuntu:latest
+MAINTAINER Pankaj Kumar
+RUN apt-get update && \
+    apt-get install -y nodejs && \
+    apt-get install -y npm && \
+    #ln -s /usr/bin/nodejs /usr/bin/node
+    npm install -g http-server
+COPY ./index.html /usr/apps/hello-docker/index.html
+WORKDIR /usr/apps/hello-docker/
+CMD http-server -s
+
+

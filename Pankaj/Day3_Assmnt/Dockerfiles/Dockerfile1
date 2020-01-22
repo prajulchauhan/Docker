@@ -1,0 +1,6 @@
+FROM alpine:latest
+MAINTAINER Pankaj Kumar
+RUN apk update && apk add nodejs
+COPY . /app
+WORKDIR /app
+RUN node index.js
