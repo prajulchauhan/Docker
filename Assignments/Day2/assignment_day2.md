@@ -1,11 +1,3 @@
-## Topic: Docker PORT/VOLUME/LINK
-
-Topics to be Covered
-------------------------
-* Working with Docker port forwarding.
-* Attaching docker volume to a container.
-* Link containers.
-
 Assignment 1
 -------------------
 ## Docker Port:
@@ -26,8 +18,3 @@ Assignment 1
 2. Run another container in detached mode with name "web" from image "training/webapp", link container "db" with alias "mydb" to this container and finally pass an inline command "python app.py" while running container.
 3. Take a bash terminal in "web" container.
 4. Test container linking by doing a ping to "mydb"
-
-
-Reference
------------------
-[Docker Port/Volume/Link](https://docs.docker.com/engine/reference/commandline/run/)

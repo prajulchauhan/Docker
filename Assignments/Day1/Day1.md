@@ -1,20 +1,3 @@
-## Topic: Docker Installation on Centos 7
-
-Topics to be Covered
--------------------------
-* Installing Docker using yum or apt.
-* Installing Docker Automatically using official shell script.
-* Docker Architecture
-* Docker Engine
-* Docker Daemon
-* Docker Client
-
-What You Will Learn
-----------------------------
-How easy it is to install and configure Docker for yourself.
-How docker client communicated with Docker daemon.
-
-
 Assignment-1
 --------------------------
 1. Use official shell script to install and configure Docker on your control machine.
@@ -55,10 +38,3 @@ Assignment-3
 10. Start same container using ID and exec a command "echo 'hello world!'" in docker container without instantiating a new container.
 11. Inspect already downloaded "alpine" docker image using docker inspect command.
 12. Tag your local "alpine" image with name "myimage" along with version 1.0
-
-
-Reference
-----------------
-[Docker Installation](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-centos-7)
-
-[Docker Cli](https://docs.docker.com/engine/reference/run/) 
