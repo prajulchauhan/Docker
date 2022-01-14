@@ -1,20 +1,6 @@
-## Topic: Docker DOCKERFILE
-## Topic: DockerHub/Registry
-
-
-Topics to be Covered
-------------------------
-* What is DockerFile.
-* How DockerFile is easing the things that we were doing using Docker CLI.
-* What is DockerHub and application of docker hub.
-* How to use DockerHub to push and pull images..
-
-
 Assignment 1
 -------------------
 1. Create a file named index.js with below content.
-
-![image](image/1.png)
 
 index.js
 ----------------
@@ -35,19 +21,6 @@ console.log("hello from " + hostname);
 3. Build image from Dockerfile.
 4. Tag image with name "hello:v0.1"
 
-
-![image](image/2.png)
-
-
-![image](image/3.png)
-
-
-![image](image/4.png)
-
-
-![image](image/5.png)
-
-
 Assignment 2
 -----------------------
 1. Create a DockerFile.
@@ -61,27 +34,10 @@ Assignment 2
 9. Add any test index.html file from local at /usr/apps/hello-docker/index.html on container.
 10. change your working directory to /usr/apps/hello-docker/.
 11. Run a command (http-server -s) on every container initialization.
-
 12. Build your dockerfile and tag it with "yourname:docker-web"
 13. Run a docker container from the image that you have just created and map container 8080 port to host 8080 port.(8080:8080)
 14. Try accessing your webpage using "http://<virtualmachine_ipaddress>:8080/index.html" URL.
 15. Delete docker container and image from local.
-
-
-![image](image/6.png)
-
-
-![image](image/7.png)
-
-
-![image](image/8.png)
-
-
-![image](image/9.png)
-
-
-![image](image/10.png)
-
 
 Assignment 3
 ------------------------
@@ -96,42 +52,3 @@ Assignment 3
 8.  Tag "centos" image with name "mycentos" in your repository with version 1.1
 9.  Push that image to your repo "mytestrepo" on your dockerhub.
 10. Do commandline logout on dockerhub.
-
-
-![image](image/11.png)
-
-
-![image](image/12.png)
-
-
-![image](image/13.png)
-
-
-![image](image/14.png)
-
-
-
-![image](image/15.png)
-
-
-![image](image/16.png)
-
-
-![image](image/17.png)
-
-
-![image](image/18.png)
-
-
-![image](image/19.png)
-
-
-![image](image/20.png)
-
-
-![image](image/21.png)
-Reference
------------------
-[Docker DockerFile](https://docs.docker.com/engine/reference/builder/)
-[DockerHub/Registry](https://docs.docker.com/develop/develop-images/image_management/)
-
