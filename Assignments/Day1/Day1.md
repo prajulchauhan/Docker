@@ -24,7 +24,7 @@ Assignment-2
 10. Try to remove "alpine" image from your local system.
 
 Assignment-3
---------------------------
+-------------------------
 
 1. Again pull "alpine" image from docker registry.
 2. Take interactive login to bash while running docker container from "alpine" image.
