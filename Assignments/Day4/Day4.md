@@ -1,4 +1,5 @@
 Assignment:1
+
 -------------------
 * Install docker-compose on your machine, if not already installed.
 * Check docker-compose version.
@@ -14,7 +15,6 @@ Assignment:1
 * Save docker-compose.yaml file and do docker-compose up.
 * Verify nginx service is up and is accessible on machine.
 * Stop and remove your docker container using docker-compose.
-
 
 
 Assignment:2
