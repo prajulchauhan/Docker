@@ -1,6 +1,5 @@
 Assignment 1
 -------------------
-## Docker Port:
 
 1. Pull nginx image from dockerhub.
 2. Run a container from nginx image and map container port 80 to system port 80.
